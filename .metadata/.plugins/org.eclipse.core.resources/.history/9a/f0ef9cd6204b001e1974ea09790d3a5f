@@ -1,8 +1,0 @@
-package teste;
-	import javax.swing.JOptionPane;
-	public class Teste1 {
-	public static void main(String args[]){
-	JOptionPane.showMessageDialog(null, "Exemplo de texto em uma janela!");
-	System.exit(0);
-	}
-	}
