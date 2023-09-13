@@ -17,10 +17,8 @@ public class PraticaQuestao1 {
 	        System.out.println("Digite a terceira nota: ");
 	        double nota3 = input.nextDouble();
 
-	        // Calcula a média aritmética
 	        double media = (nota1 + nota2 + nota3) / 3.0;
 
-	        // Apresenta a média
 	        System.out.println("A média das notas é: " + media);
 
 	    }
