@@ -16,16 +16,13 @@ public class Pratica3While4 {
 		double salario = input.nextDouble();
 
 		while (salario >= 0) {
-			// Solicita o número de filhos
 			System.out.print("Digite o número de filhos: ");
 			int numFilhos = input.nextInt();
 
-			// Atualiza as somas
 			somaSalarios += salario;
 			somaFilhos += numFilhos;
 			contador++;
 
-			// Lê o próximo salário
 			System.out.println("Digite o salário (ou um valor negativo para encerrar): ");
 			salario = input.nextDouble();
 		}
