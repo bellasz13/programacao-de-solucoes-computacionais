@@ -17,12 +17,7 @@ public class Empregado extends Pessoa {
 		this.salarioBase = salarioBase;
 		this.inss = inss;
 	}
-
-	// getters e setters para a classe Empregado
-	// ...
-
 	public double calcularSalario() {
-		// Implementação do cálculo do salário
 		return salarioBase - (salarioBase * (inss / 100));
 	}
 
