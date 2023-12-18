@@ -72,7 +72,7 @@ public class BuscaSequencial {
 	//sequencial com sentinela
 	private static int buscaSequencialComSentinela(int[] vetor, int numero) {
 		int tamanho = vetor.length;
-		vetor[tamanho - 1] = numero; //número a ser pesquisado vai para o final do vetor como sentinela
+		vetor[tamanho - 1] = numero; //um nmr vai pro final do vetor como sentinela
 
 		int i = 0;
 		while (vetor[i] != numero) {
